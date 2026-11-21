@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "TruthLens - Terms & Policy Analyzer",
+  "version": "1.1.0",
+  "description": "Analyze webpage policies and terms using Gemini AI.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_title": "Analyze with TruthLens",
+    "default_popup": "popup.html"
+  }
+}
